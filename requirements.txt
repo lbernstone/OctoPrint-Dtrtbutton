@@ -1,0 +1,4 @@
+OctoPrint
+RPi.GPIO>=0.7
+OctoPrint_PSUControl
+requests

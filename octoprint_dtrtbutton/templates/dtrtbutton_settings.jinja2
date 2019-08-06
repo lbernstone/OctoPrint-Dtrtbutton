@@ -1,0 +1,28 @@
+<form class="form-horizontal">
+    <h4>GPIO</h4>
+    <div class="control-group">
+        <label class="control-label">{{ _('Button Pin') }}</label>
+        <div class="controls">
+           <input type="number" min="0" max="40" class="input-mini" data-bind="value: settings.plugins.dtrtbutton.btnpin">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _('LED Pin') }}</label>
+        <div class="controls">
+           <input type="number" min="0" max="40" class="input-mini" data-bind="value: settings.plugins.dtrtbutton.ledpin">
+        </div>
+    </div>
+    <h4>Other</h4>
+    <div class="control-group">
+        <label class="control-label">{{ _('Preheat Temp') }}</label>
+        <div class="controls">
+           <input type="number" min="100" max="250" class="input-mini" data-bind="value: settings.plugins.dtrtbutton.heatTemp">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _('PSU Control URL') }}</label>
+        <div class="controls">
+           <input type="text" class="input-block-level" data-bind="value: settings.plugins.dtrtbutton.psuControl">
+        </div>
+    </div>
+</form>

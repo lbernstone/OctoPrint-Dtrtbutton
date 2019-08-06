@@ -1,0 +1,4 @@
+include README.md
+recursive-include octoprint_dtrtbutton/templates *
+recursive-include octoprint_dtrtbutton/translations *
+recursive-include octoprint_dtrtbutton/static *
